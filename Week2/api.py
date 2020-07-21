@@ -8,6 +8,8 @@ app.config["DEBUG"] = True
 def comparator(sanction, entry):
     maxSanc = len(sanction) #length of Sanctioned String stored
     maxEntry = len(entry) #length of user entry
+    sanction = sanction.casefold() #both strings are converted to lower case so that String comparisons are case insensitive
+    entry = entry.casefold()
     if (sanction==entry): #inital check to see if Strings are equal
         return 100
     elif (len(sanction)<len(entry)): #if sanctioned string is shorter, the sanctioned String's characters are traversed and compared to user entry. This is done to avoid an out of bounds error.
