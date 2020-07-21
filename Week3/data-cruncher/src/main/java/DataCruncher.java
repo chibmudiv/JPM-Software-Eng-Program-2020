@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
+import java.util.*;
 
 public class DataCruncher {
 
@@ -42,12 +43,29 @@ public class DataCruncher {
 
     // task 1
     public Set<String> getUniqueMerchantIds() throws Exception {
-        return Set.of();
+        List<Transaction> transactions = readAllTransactions();
+        Set<String> iDSet = new HashSet();
+        for (Transaction current : transactions ){
+            if (iDSet.contains(current.getMerchantId())){
+                continue;
+            } else {
+                iDSet.add(current.getMerchantId());
+            }
+        }
+        return iDSet;
     }
 
     // task 2
     public long getTotalNumberOfFraudulentTransactions() throws Exception {
-        return 0;
+        List<Transaction> transactions = readAllTransactions();
+        int count = 0;
+        for (Transaction current : transactions ){
+            if (current.isFraud()){
+                count++;
+            }
+        }
+
+        return count;
     }
 
     // task 3
