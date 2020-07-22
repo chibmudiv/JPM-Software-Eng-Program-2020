@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b1936de-c002-4f7f-856d-9fefffb0350a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/main/fraud-detection.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/org.example.fraud-detection.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/org.example.fraud-detection.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/org.example.fraud-detection.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/DataCruncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/DataCruncher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/DataCruncherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/DataCruncherTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DataCruncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataCruncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DataCruncherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DataCruncherTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -32,20 +26,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/DataCruncher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/function/Predicate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+            <state relative-caret-position="540">
+              <caret line="148" column="8" selection-start-line="148" selection-start-column="8" selection-end-line="148" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,8 +41,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DataCruncherTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="248">
+              <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,7 +53,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Transaction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
+            <state relative-caret-position="-82">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
@@ -76,6 +67,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/test/java/DataCruncherTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/DataCruncher.java" />
       </list>
     </option>
@@ -126,7 +118,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595355492818" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595456367913" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -150,22 +142,52 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DataCruncherTest.getUniqueMerchantIds">
-    <configuration name="DataCruncherTest.getTotalNumberOfFraudulentTransactions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DataCruncherTest.getFraudPercentageForMen">
+    <configuration name="DataCruncherTest.getAllTransactionSortedByAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="org.example.fraud-detection.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DataCruncherTest" />
-      <option name="METHOD_NAME" value="getTotalNumberOfFraudulentTransactions" />
+      <option name="METHOD_NAME" value="getAllTransactionSortedByAmount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataCruncherTest.getUniqueMerchantIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DataCruncherTest.getFraudPercentageForMen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="org.example.fraud-detection.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DataCruncherTest" />
-      <option name="METHOD_NAME" value="getUniqueMerchantIds" />
+      <option name="METHOD_NAME" value="getFraudPercentageForMen" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataCruncherTest.getFraudulentTransactionsForMerchantId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="org.example.fraud-detection.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DataCruncherTest" />
+      <option name="METHOD_NAME" value="getFraudulentTransactionsForMerchantId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataCruncherTest.getTotalNumberOfTransactions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="org.example.fraud-detection.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DataCruncherTest" />
+      <option name="METHOD_NAME" value="getTotalNumberOfTransactions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataCruncherTest.getTransactionForMerchantId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="org.example.fraud-detection.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DataCruncherTest" />
+      <option name="METHOD_NAME" value="getTransactionForMerchantId" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,8 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DataCruncherTest.getUniqueMerchantIds" />
-        <item itemvalue="JUnit.DataCruncherTest.getTotalNumberOfFraudulentTransactions" />
+        <item itemvalue="JUnit.DataCruncherTest.getFraudPercentageForMen" />
+        <item itemvalue="JUnit.DataCruncherTest.getAllTransactionSortedByAmount" />
+        <item itemvalue="JUnit.DataCruncherTest.getTransactionForMerchantId" />
+        <item itemvalue="JUnit.DataCruncherTest.getFraudulentTransactionsForMerchantId" />
+        <item itemvalue="JUnit.DataCruncherTest.getTotalNumberOfTransactions" />
       </list>
     </recent_temporary>
   </component>
@@ -192,11 +217,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DataCruncherTest_getUniqueMerchantIds - 2020.07.21 at 17h 12m 32s.xml">
-      <configuration name="DataCruncherTest.getUniqueMerchantIds" configurationId="JUnit" />
+    <history-entry file="DataCruncherTest_getFraudPercentageForMen - 2020.07.22 at 21h 54m 51s.xml">
+      <configuration name="DataCruncherTest.getFraudPercentageForMen" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataCruncherTest_getTotalNumberOfFraudulentTransactions - 2020.07.21 at 18h 51m 49s.xml">
-      <configuration name="DataCruncherTest.getTotalNumberOfFraudulentTransactions" configurationId="JUnit" />
+    <history-entry file="DataCruncherTest_getFraudPercentageForMen - 2020.07.22 at 21h 55m 47s.xml">
+      <configuration name="DataCruncherTest.getFraudPercentageForMen" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataCruncherTest_getFraudPercentageForMen - 2020.07.22 at 21h 56m 55s.xml">
+      <configuration name="DataCruncherTest.getFraudPercentageForMen" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataCruncherTest_getFraudPercentageForMen - 2020.07.22 at 21h 57m 16s.xml">
+      <configuration name="DataCruncherTest.getFraudPercentageForMen" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataCruncherTest_getFraudPercentageForMen - 2020.07.22 at 21h 59m 09s.xml">
+      <configuration name="DataCruncherTest.getFraudPercentageForMen" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataCruncherTest_getFraudPercentageForMen - 2020.07.22 at 22h 09m 58s.xml">
+      <configuration name="DataCruncherTest.getFraudPercentageForMen" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataCruncherTest_getFraudPercentageForMen - 2020.07.22 at 22h 10m 35s.xml">
+      <configuration name="DataCruncherTest.getFraudPercentageForMen" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataCruncherTest_getFraudPercentageForMen - 2020.07.22 at 22h 12m 49s.xml">
+      <configuration name="DataCruncherTest.getFraudPercentageForMen" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataCruncherTest_getFraudPercentageForMen - 2020.07.22 at 22h 16m 43s.xml">
+      <configuration name="DataCruncherTest.getFraudPercentageForMen" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataCruncherTest_getFraudPercentageForMen - 2020.07.22 at 22h 17m 20s.xml">
+      <configuration name="DataCruncherTest.getFraudPercentageForMen" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -234,44 +283,50 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DataCruncher.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DataCruncherTest.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/function/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="170">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Transaction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="-82">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataCruncherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DataCruncher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/function/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        <state relative-caret-position="540">
+          <caret line="148" column="8" selection-start-line="148" selection-start-column="8" selection-end-line="148" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

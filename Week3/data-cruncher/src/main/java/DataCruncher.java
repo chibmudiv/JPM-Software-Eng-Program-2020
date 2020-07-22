@@ -70,31 +70,83 @@ public class DataCruncher {
 
     // task 3
     public long getTotalNumberOfTransactions(boolean isFraud) throws Exception {
-        return 0;
+        List<Transaction> transactions = readAllTransactions();
+        int count = 0;
+        if (isFraud){
+            for (Transaction current : transactions ){
+                if (current.isFraud()){
+                    count++;
+                }
+            }
+
+        } else {
+            for (Transaction current : transactions ){
+                if (!current.isFraud()){
+                    count++;
+                }
+            }
+        }
+        return count;
     }
 
     // task 4
     public Set<Transaction> getFraudulentTransactionsForMerchantId(String merchantId) throws Exception {
-        return Set.of();
+        List<Transaction> transactions = readAllTransactions();
+        Set<Transaction> fraudulentTransactions = new HashSet<>();
+        for (Transaction current : transactions){
+            if (current.getMerchantId().equals(merchantId)){
+                if (current.isFraud()) {
+                    fraudulentTransactions.add(current);
+                }
+            }
+        }
+        return fraudulentTransactions;
     }
 
     // task 5
     public Set<Transaction> getTransactionsForMerchantId(String merchantId, boolean isFraud) throws Exception {
-        return Set.of();
+        List<Transaction> transactions = readAllTransactions();
+        Set<Transaction> fraudulentTransactions = new HashSet<>();
+        for (Transaction current : transactions){
+            if (current.getMerchantId().equals(merchantId)){
+                if (current.isFraud()==isFraud) {
+                    fraudulentTransactions.add(current);
+                }
+            }
+        }
+        return fraudulentTransactions;
     }
 
     // task 6
     public List<Transaction> getAllTransactionsSortedByAmount() throws Exception {
-        return List.of();
+        return readAllTransactions().stream()
+                .sorted(Comparator.comparing(Transaction::getAmount))
+                .collect(Collectors.toList());
     }
 
     // task 7
     public double getFraudPercentageForMen() throws Exception {
-        return 0.0;
+        List<Transaction> transactions = readAllTransactions();
+        int byMen = 0;
+        Double percentage;
+        int fraudulent = 0;
+        String gender = "M";
+        for (Transaction current : transactions){
+            if (current.isFraud()){
+                fraudulent=fraudulent+1;
+                if (current.getGender().equals(gender)) {
+                    byMen = byMen + 1;
+                }
+            }
+        }
+        percentage = (double) byMen/fraudulent;
+
+        return percentage;
     }
 
     // task 8
-    public Set<Transaction> getCustomerIdsWithNumberOfFraudulentTransactions(int numberOfFraudulentTransactions) throws Exception {
+    public Set<String> getCustomerIdsWithNumberOfFraudulentTransactions(int numberOfFraudulentTransactions) throws Exception {
+        
         return Set.of();
     }
 

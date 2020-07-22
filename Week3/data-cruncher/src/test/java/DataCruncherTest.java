@@ -1,5 +1,6 @@
 import org.junit.Test;
-
+import java.util.*;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -63,7 +64,9 @@ public class DataCruncherTest {
     @Test
     public void getAllTransactionSortedByAmount() throws Exception {
         List<Transaction> allTransactionsSortedByAmount = dataCruncher.getAllTransactionsSortedByAmount();
-        fail();
+        List<Transaction> sortedList = new ArrayList<>(allTransactionsSortedByAmount);
+        sortedList.sort(Comparator.comparing(Transaction::getAmount));
+        assertEquals("List is not sorted", sortedList, allTransactionsSortedByAmount);
     }
 
     // task7
@@ -76,7 +79,7 @@ public class DataCruncherTest {
     // task8
     @Test
     public void getCustomerIdsWithNumberOfFraudulentTransactions() throws Exception {
-        Set<Transaction> customerIdsWithNumberOfFraudulentTransactions = dataCruncher.getCustomerIdsWithNumberOfFraudulentTransactions(3);
+        Set<String> customerIdsWithNumberOfFraudulentTransactions = dataCruncher.getCustomerIdsWithNumberOfFraudulentTransactions(3);
         fail();
     }
 
