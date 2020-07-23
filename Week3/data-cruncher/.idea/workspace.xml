@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b1936de-c002-4f7f-856d-9fefffb0350a" name="Default Changelist" comment="" />
+    <list default="true" id="2b1936de-c002-4f7f-856d-9fefffb0350a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataCruncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataCruncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DataCruncherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DataCruncherTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/DataCruncher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="148" selection-start-line="148" selection-end-line="148" />
+            <state relative-caret-position="414">
+              <caret line="203" column="8" lean-forward="true" selection-start-line="203" selection-start-column="8" selection-end-line="203" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DataCruncherTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+            <state relative-caret-position="375">
+              <caret line="95" column="27" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Transaction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-82">
+            <state relative-caret-position="30">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
@@ -112,7 +116,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595464203904" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595504150105" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -136,12 +140,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DataCruncherTest.getFraudPercentageForMen">
+  <component name="RunManager" selected="JUnit.DataCruncherTest.getMerchantIdToTotalAmountOfFraudulentTransactions">
     <configuration name="DataCruncherTest.getAllTransactionSortedByAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="org.example.fraud-detection.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DataCruncherTest" />
       <option name="METHOD_NAME" value="getAllTransactionSortedByAmount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataCruncherTest.getCustomerIdToNumberOfTransactions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="org.example.fraud-detection.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DataCruncherTest" />
+      <option name="METHOD_NAME" value="getCustomerIdToNumberOfTransactions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataCruncherTest.getCustomerIdsWithNumberOfFraudulentTransactions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="org.example.fraud-detection.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DataCruncherTest" />
+      <option name="METHOD_NAME" value="getCustomerIdsWithNumberOfFraudulentTransactions" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,31 +181,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataCruncherTest.getFraudulentTransactionsForMerchantId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DataCruncherTest.getMerchantIdToTotalAmountOfFraudulentTransactions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="org.example.fraud-detection.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DataCruncherTest" />
-      <option name="METHOD_NAME" value="getFraudulentTransactionsForMerchantId" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataCruncherTest.getTotalNumberOfTransactions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="org.example.fraud-detection.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DataCruncherTest" />
-      <option name="METHOD_NAME" value="getTotalNumberOfTransactions" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataCruncherTest.getTransactionForMerchantId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="org.example.fraud-detection.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DataCruncherTest" />
-      <option name="METHOD_NAME" value="getTransactionForMerchantId" />
+      <option name="METHOD_NAME" value="getMerchantIdToTotalAmountOfFraudulentTransactions" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -189,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DataCruncherTest.getMerchantIdToTotalAmountOfFraudulentTransactions" />
+        <item itemvalue="JUnit.DataCruncherTest.getCustomerIdToNumberOfTransactions" />
+        <item itemvalue="JUnit.DataCruncherTest.getCustomerIdsWithNumberOfFraudulentTransactions" />
         <item itemvalue="JUnit.DataCruncherTest.getFraudPercentageForMen" />
         <item itemvalue="JUnit.DataCruncherTest.getAllTransactionSortedByAmount" />
-        <item itemvalue="JUnit.DataCruncherTest.getTransactionForMerchantId" />
-        <item itemvalue="JUnit.DataCruncherTest.getFraudulentTransactionsForMerchantId" />
-        <item itemvalue="JUnit.DataCruncherTest.getTotalNumberOfTransactions" />
       </list>
     </recent_temporary>
   </component>
@@ -211,21 +215,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DataCruncherTest_getFraudPercentageForMen - 2020.07.22 at 21h 54m 51s.xml">
-      <configuration name="DataCruncherTest.getFraudPercentageForMen" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataCruncherTest_getFraudPercentageForMen - 2020.07.22 at 21h 55m 47s.xml">
-      <configuration name="DataCruncherTest.getFraudPercentageForMen" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataCruncherTest_getFraudPercentageForMen - 2020.07.22 at 21h 56m 55s.xml">
-      <configuration name="DataCruncherTest.getFraudPercentageForMen" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataCruncherTest_getFraudPercentageForMen - 2020.07.22 at 21h 57m 16s.xml">
-      <configuration name="DataCruncherTest.getFraudPercentageForMen" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataCruncherTest_getFraudPercentageForMen - 2020.07.22 at 21h 59m 09s.xml">
-      <configuration name="DataCruncherTest.getFraudPercentageForMen" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DataCruncherTest_getFraudPercentageForMen - 2020.07.22 at 22h 09m 58s.xml">
       <configuration name="DataCruncherTest.getFraudPercentageForMen" configurationId="JUnit" />
     </history-entry>
@@ -241,9 +230,25 @@
     <history-entry file="DataCruncherTest_getFraudPercentageForMen - 2020.07.22 at 22h 17m 20s.xml">
       <configuration name="DataCruncherTest.getFraudPercentageForMen" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DataCruncherTest_getCustomerIdsWithNumberOfFraudulentTransactions - 2020.07.23 at 10h 58m 44s.xml">
+      <configuration name="DataCruncherTest.getCustomerIdsWithNumberOfFraudulentTransactions" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataCruncherTest_getCustomerIdsWithNumberOfFraudulentTransactions - 2020.07.23 at 12h 03m 02s.xml">
+      <configuration name="DataCruncherTest.getCustomerIdsWithNumberOfFraudulentTransactions" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataCruncherTest_getCustomerIdToNumberOfTransactions - 2020.07.23 at 12h 05m 05s.xml">
+      <configuration name="DataCruncherTest.getCustomerIdToNumberOfTransactions" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataCruncherTest_getCustomerIdToNumberOfTransactions - 2020.07.23 at 12h 05m 45s.xml">
+      <configuration name="DataCruncherTest.getCustomerIdToNumberOfTransactions" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataCruncherTest_getMerchantIdToTotalAmountOfFraudulentTransactions - 2020.07.23 at 12h 17m 43s.xml">
+      <configuration name="DataCruncherTest.getMerchantIdToTotalAmountOfFraudulentTransactions" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25107297" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -298,15 +303,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Transaction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-82">
+        <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DataCruncherTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+        <state relative-caret-position="375">
+          <caret line="95" column="27" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -315,8 +320,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DataCruncher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="148" selection-start-line="148" selection-end-line="148" />
+        <state relative-caret-position="414">
+          <caret line="203" column="8" lean-forward="true" selection-start-line="203" selection-start-column="8" selection-end-line="203" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

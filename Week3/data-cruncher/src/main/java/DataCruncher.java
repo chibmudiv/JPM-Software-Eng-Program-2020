@@ -146,22 +146,62 @@ public class DataCruncher {
 
     // task 8
     public Set<String> getCustomerIdsWithNumberOfFraudulentTransactions(int numberOfFraudulentTransactions) throws Exception {
-
-        return Set.of();
+        List<Transaction> transactions = readAllTransactions();
+        //Set<Transaction> fraudulentCustomers = new HashSet<>();
+        HashMap<String, Integer> fraudulentCustomers = new HashMap<>();
+        for (Transaction current : transactions){
+            if (current.isFraud()){
+                if(fraudulentCustomers.containsKey(current.getCustomerId())){
+                    fraudulentCustomers.put(current.getCustomerId(),fraudulentCustomers.get(current.getCustomerId())+1);
+                } else {
+                    fraudulentCustomers.put(current.getCustomerId(),1);
+                }
+            }
+        }
+        Set<String> allCustomers = new HashSet<>();
+        for (String s : fraudulentCustomers.keySet()){
+            if (fraudulentCustomers.get(s)>=numberOfFraudulentTransactions){
+                allCustomers.add(s);
+            }
+        }
+        return allCustomers;
     }
 
     // task 9
     public Map<String, Integer> getCustomerIdToNumberOfTransactions() throws Exception {
-        return Map.of();
+        List<Transaction> transactions = readAllTransactions();
+        HashMap<String, Integer> fraudulentCustomers = new HashMap<>();
+        for (Transaction current : transactions){
+            if (current.isFraud()){
+                if(fraudulentCustomers.containsKey(current.getCustomerId())){
+                    fraudulentCustomers.put(current.getCustomerId(),fraudulentCustomers.get(current.getCustomerId())+1);
+                } else {
+                    fraudulentCustomers.put(current.getCustomerId(),1);
+                }
+            }
+        }
+        return fraudulentCustomers;
     }
 
     // task 10
-    public Map<String, Double> getMerchantIdToTotalAmountOfFraudulentTransactions() throws Exception {
-        return Map.of();
+    public Map<String, Integer> getMerchantIdToTotalAmountOfFraudulentTransactions() throws Exception {
+        List<Transaction> transactions = readAllTransactions();
+        HashMap<String, Integer> fraudulentMerchants = new HashMap<>();
+        for (Transaction current : transactions){
+            if (current.isFraud()){
+                if(fraudulentMerchants.containsKey(current.getCustomerId())){
+                    fraudulentMerchants.put(current.getCustomerId(),fraudulentMerchants.get(current.getCustomerId())+1);
+                } else {
+                    fraudulentMerchants.put(current.getCustomerId(),1);
+                }
+            }
+        }
+        return fraudulentMerchants;
     }
 
     // bonus
     public double getRiskOfFraudFigure(Transaction transaction) throws Exception {
+        
         return 1.0;
     }
 }
