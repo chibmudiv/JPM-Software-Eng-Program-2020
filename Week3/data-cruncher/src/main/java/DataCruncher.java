@@ -146,7 +146,7 @@ public class DataCruncher {
 
     // task 8
     public Set<String> getCustomerIdsWithNumberOfFraudulentTransactions(int numberOfFraudulentTransactions) throws Exception {
-        
+
         return Set.of();
     }
 
