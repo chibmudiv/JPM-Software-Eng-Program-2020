@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import static org.junit.Assert.assertTrue;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
@@ -80,20 +81,32 @@ public class DataCruncherTest {
     @Test
     public void getCustomerIdsWithNumberOfFraudulentTransactions() throws Exception {
         Set<String> customerIdsWithNumberOfFraudulentTransactions = dataCruncher.getCustomerIdsWithNumberOfFraudulentTransactions(3);
-        //fail();
+        assertEquals(4110, customerIdsWithNumberOfFraudulentTransactions.size());
     }
 
     // task9
     @Test
     public void getCustomerIdToNumberOfTransactions() throws Exception {
         Map<String, Integer> customerIdToNumberOfTransactions = dataCruncher.getCustomerIdToNumberOfTransactions();
-        //fail();
+        assertTrue(customerIdToNumberOfTransactions.containsKey("C1093826151") && customerIdToNumberOfTransactions.get("C1093826151") == 89);
+        assertTrue(customerIdToNumberOfTransactions.containsKey("C352968107") && customerIdToNumberOfTransactions.get("C352968107") == 76);
+        assertTrue(customerIdToNumberOfTransactions.containsKey("C2054744914") && customerIdToNumberOfTransactions.get("C2054744914") == 41);
     }
 
     // task10
     @Test
     public void getMerchantIdToTotalAmountOfFraudulentTransactions() throws Exception {
         Map<String, Integer> merchantIdToTotalAmountOfFraudulentTransactions = dataCruncher.getMerchantIdToTotalAmountOfFraudulentTransactions();
-        //fail();
+        assertTrue(merchantIdToTotalAmountOfFraudulentTransactions.containsKey("M348934600") && merchantIdToTotalAmountOfFraudulentTransactions.get("M348934600")==102947);
+        assertTrue(merchantIdToTotalAmountOfFraudulentTransactions.containsKey("M1823072687") && merchantIdToTotalAmountOfFraudulentTransactions.get("M348934600")==149652);
+        assertTrue(merchantIdToTotalAmountOfFraudulentTransactions.containsKey("M50039827") && merchantIdToTotalAmountOfFraudulentTransactions.get("M348934600")==439);
     }
+
+    @Test
+    public void getAverageTransactionAmt() throws Exception {
+        Double avgAmt = dataCruncher.averageTransactionAmt();
+        //check that totaltransactions is being calculated properly. assertEquals
+        dataCruncher.addColumn("src/main/resources", "payments.csv");
+    }
+
 }
