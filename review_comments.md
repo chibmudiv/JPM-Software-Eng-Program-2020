@@ -1,0 +1,3 @@
+- Move .zip file to Week 3 or remove it, best to have the text files themselves in the repo rather than binaries
+- .ipynb_checkpoints: probably needs removing. Did you forget to add your notebook to the repo?
+- Worth adding a few lines in the README about the contents of each function. Or copy the instructions from your earlier submissions. 
