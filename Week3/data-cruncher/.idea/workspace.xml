@@ -2,7 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b1936de-c002-4f7f-856d-9fefffb0350a" name="Default Changelist" comment="Starting data enriching">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/DataCruncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/DataCruncher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/DataCruncherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/DataCruncherTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/fraud-detection-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/fraud-detection-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/DataCruncherTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/DataCruncherTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/payments.csv" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/payments.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-DataCruncherTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-DataCruncherTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/DataCruncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/DataCruncher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/ML/FraudProbability .ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/ML/FraudProbability .ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/DataCruncherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/DataCruncherTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ML/payments.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ML/payments.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DataCruncherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DataCruncherTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -22,11 +51,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DataCruncher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1223">
-              <caret line="276" column="34" lean-forward="true" selection-start-line="276" selection-start-column="34" selection-end-line="276" selection-end-column="34" />
+            <state relative-caret-position="174">
+              <caret line="244" column="62" selection-start-line="244" selection-start-column="62" selection-end-line="244" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DataCruncherTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="69" column="11" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
+            <state relative-caret-position="323">
+              <caret line="99" column="112" lean-forward="true" selection-start-line="99" selection-start-column="112" selection-end-line="99" selection-end-column="112" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,13 +97,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/DataCruncherTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/DataCruncher.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DataCruncherTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="373" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="823" />
@@ -134,7 +162,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595790689174" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596112374287" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -240,39 +268,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DataCruncherTest_getTransactionForMerchantId - 2020.07.26 at 17h 41m 36s.xml">
-      <configuration name="DataCruncherTest.getTransactionForMerchantId" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataCruncherTest_getFraudPercentageForMen - 2020.07.26 at 17h 42m 10s.xml">
-      <configuration name="DataCruncherTest.getFraudPercentageForMen" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataCruncherTest_getCustomerIdToNumberOfTransactions - 2020.07.26 at 18h 26m 10s.xml">
-      <configuration name="DataCruncherTest.getCustomerIdToNumberOfTransactions" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataCruncherTest_getCustomerIdToNumberOfTransactions - 2020.07.26 at 18h 37m 19s.xml">
-      <configuration name="DataCruncherTest.getCustomerIdToNumberOfTransactions" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataCruncherTest_getCustomerIdToNumberOfTransactions - 2020.07.26 at 18h 42m 29s.xml">
-      <configuration name="DataCruncherTest.getCustomerIdToNumberOfTransactions" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataCruncherTest_getCustomerIdToNumberOfTransactions - 2020.07.26 at 18h 42m 49s.xml">
-      <configuration name="DataCruncherTest.getCustomerIdToNumberOfTransactions" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataCruncherTest_getCustomerIdToNumberOfTransactions - 2020.07.26 at 18h 51m 48s.xml">
-      <configuration name="DataCruncherTest.getCustomerIdToNumberOfTransactions" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataCruncherTest_getMerchantIdToTotalAmountOfFraudulentTransactions - 2020.07.26 at 18h 57m 42s.xml">
+    <history-entry file="DataCruncherTest_getMerchantIdToTotalAmountOfFraudulentTransactions - 2020.07.30 at 13h 26m 34s.xml">
       <configuration name="DataCruncherTest.getMerchantIdToTotalAmountOfFraudulentTransactions" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataCruncherTest_getMerchantIdToTotalAmountOfFraudulentTransactions - 2020.07.26 at 18h 58m 06s.xml">
+    <history-entry file="DataCruncherTest_getMerchantIdToTotalAmountOfFraudulentTransactions - 2020.07.30 at 13h 26m 50s.xml">
       <configuration name="DataCruncherTest.getMerchantIdToTotalAmountOfFraudulentTransactions" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataCruncherTest_getMerchantIdToTotalAmountOfFraudulentTransactions - 2020.07.26 at 18h 59m 46s.xml">
+    <history-entry file="DataCruncherTest_getMerchantIdToTotalAmountOfFraudulentTransactions - 2020.07.30 at 13h 27m 08s.xml">
+      <configuration name="DataCruncherTest.getMerchantIdToTotalAmountOfFraudulentTransactions" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataCruncherTest_getMerchantIdToTotalAmountOfFraudulentTransactions - 2020.07.30 at 13h 27m 26s.xml">
+      <configuration name="DataCruncherTest.getMerchantIdToTotalAmountOfFraudulentTransactions" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataCruncherTest_getMerchantIdToTotalAmountOfFraudulentTransactions - 2020.07.30 at 13h 27m 44s.xml">
+      <configuration name="DataCruncherTest.getMerchantIdToTotalAmountOfFraudulentTransactions" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataCruncherTest_getMerchantIdToTotalAmountOfFraudulentTransactions - 2020.07.30 at 13h 29m 30s.xml">
+      <configuration name="DataCruncherTest.getMerchantIdToTotalAmountOfFraudulentTransactions" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataCruncherTest_getMerchantIdToTotalAmountOfFraudulentTransactions - 2020.07.30 at 13h 29m 53s.xml">
+      <configuration name="DataCruncherTest.getMerchantIdToTotalAmountOfFraudulentTransactions" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataCruncherTest_getMerchantIdToTotalAmountOfFraudulentTransactions - 2020.07.30 at 13h 30m 21s.xml">
+      <configuration name="DataCruncherTest.getMerchantIdToTotalAmountOfFraudulentTransactions" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataCruncherTest_getMerchantIdToTotalAmountOfFraudulentTransactions - 2020.07.30 at 13h 31m 28s.xml">
+      <configuration name="DataCruncherTest.getMerchantIdToTotalAmountOfFraudulentTransactions" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataCruncherTest_getMerchantIdToTotalAmountOfFraudulentTransactions - 2020.07.30 at 13h 31m 53s.xml">
       <configuration name="DataCruncherTest.getMerchantIdToTotalAmountOfFraudulentTransactions" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="373" y="23" width="1440" height="823" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25822604" />
@@ -284,7 +312,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32831737" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32831737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -360,6 +388,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataCruncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="244" column="62" selection-start-line="244" selection-start-column="62" selection-end-line="244" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Transaction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -369,18 +407,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DataCruncherTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="69" column="11" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DataCruncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1223">
-          <caret line="276" column="34" lean-forward="true" selection-start-line="276" selection-start-column="34" selection-end-line="276" selection-end-column="34" />
+        <state relative-caret-position="323">
+          <caret line="99" column="112" lean-forward="true" selection-start-line="99" selection-start-column="112" selection-end-line="99" selection-end-column="112" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

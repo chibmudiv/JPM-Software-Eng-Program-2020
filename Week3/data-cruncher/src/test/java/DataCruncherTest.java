@@ -98,15 +98,16 @@ public class DataCruncherTest {
     public void getMerchantIdToTotalAmountOfFraudulentTransactions() throws Exception {
         Map<String, Integer> merchantIdToTotalAmountOfFraudulentTransactions = dataCruncher.getMerchantIdToTotalAmountOfFraudulentTransactions();
         assertTrue(merchantIdToTotalAmountOfFraudulentTransactions.containsKey("M348934600") && merchantIdToTotalAmountOfFraudulentTransactions.get("M348934600")==102947);
-        assertTrue(merchantIdToTotalAmountOfFraudulentTransactions.containsKey("M1823072687") && merchantIdToTotalAmountOfFraudulentTransactions.get("M348934600")==149652);
-        assertTrue(merchantIdToTotalAmountOfFraudulentTransactions.containsKey("M50039827") && merchantIdToTotalAmountOfFraudulentTransactions.get("M348934600")==439);
+        assertTrue(merchantIdToTotalAmountOfFraudulentTransactions.containsKey("M1823072687") && merchantIdToTotalAmountOfFraudulentTransactions.get("M1823072687")==149652);
+        assertTrue(merchantIdToTotalAmountOfFraudulentTransactions.containsKey("M50039827") && merchantIdToTotalAmountOfFraudulentTransactions.get("M50039827")==439);
     }
 
+    /* CHECKING THAT CSV IS BEING POPULATED WITH AVG AMT COLUMN
     @Test
     public void getAverageTransactionAmt() throws Exception {
         Double avgAmt = dataCruncher.averageTransactionAmt();
-        //check that totaltransactions is being calculated properly. assertEquals
+
         dataCruncher.addColumn("src/main/resources", "payments.csv");
-    }
+    }*/
 
 }
