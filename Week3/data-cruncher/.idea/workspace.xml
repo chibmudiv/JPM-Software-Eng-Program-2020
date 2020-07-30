@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b1936de-c002-4f7f-856d-9fefffb0350a" name="Default Changelist" comment="Starting data enriching" />
+    <list default="true" id="2b1936de-c002-4f7f-856d-9fefffb0350a" name="Default Changelist" comment="Starting data enriching">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ML/FraudProbability .ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ML/FraudProbability .ipynb" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/DataCruncher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="294" column="5" lean-forward="true" selection-start-line="294" selection-start-column="5" selection-end-line="294" selection-end-column="5" />
+            <state relative-caret-position="-126">
+              <caret line="225" column="45" selection-start-line="225" selection-start-column="45" selection-end-line="225" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DataCruncherTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-341">
-              <caret line="65" column="68" lean-forward="true" selection-start-line="65" selection-start-column="68" selection-end-line="65" selection-end-column="68" />
+            <state relative-caret-position="311">
+              <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,7 +133,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596112816552" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596115641243" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -268,9 +270,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="24" width="1440" height="823" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25822604" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25822604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -279,7 +280,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32831737" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32831737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -364,8 +365,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DataCruncherTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-341">
-          <caret line="65" column="68" lean-forward="true" selection-start-line="65" selection-start-column="68" selection-end-line="65" selection-end-column="68" />
+        <state relative-caret-position="311">
+          <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -374,8 +375,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DataCruncher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="294" column="5" lean-forward="true" selection-start-line="294" selection-start-column="5" selection-end-line="294" selection-end-column="5" />
+        <state relative-caret-position="-126">
+          <caret line="225" column="45" selection-start-line="225" selection-start-column="45" selection-end-line="225" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
